@@ -37,7 +37,7 @@ def reset_inventory():
         }
     ])
 
-    yield
+    yield 
 
 
 def test_get_inventory(client):

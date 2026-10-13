@@ -15,7 +15,7 @@ def get_inventory():
 def get_item(item_id):
     for item in inventory:
         if item["id"] == item_id:
-            return jsonify(item), 200
+            return jsonify( item), 200
 
     return jsonify({"error": "Product not found"}), 404
 
